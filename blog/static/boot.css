@@ -1,0 +1,36 @@
+.menubg
+{
+	background-color: #2ec7c4!important;
+}
+
+
+.mymenu
+
+{
+	font-size: 20px!important;
+	color: whie!important;
+	font-weight: bold;
+}
+
+
+a.mymenu:hover
+
+{
+	font-size: 20px!important;
+	color: red!important;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.card
+
+{
+ border-radius: 30px;
+ background-color: #2ec7c4!important;
+}
+
+.body
+{
+	background-color: darkred;
+}
+

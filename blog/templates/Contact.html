@@ -1,0 +1,22 @@
+{% include 'header.html'%}
+
+                                        <form action="/blog/insertTask" name="form">
+                 <table align="center" border="2">
+                 <tr>
+                 <td>Enter Your Name : </td>
+                 <td><input type="text" name="name" required></td>
+                 </tr>
+                 <tr>
+                 <td>Enter Your Email : </td>
+                 <td><input type="email" name="email" required></td>
+                 </tr>
+                 <tr>
+                 <td>Enter Your Mobile Number : </td>
+                 <td><input type="number" name="mobile" required></td>
+                 </tr>
+                 <tr>
+                 <td colspan="2"><input type="submit" value="Insert" name="" ></td>
+                 </tr>
+                 </table>
+                 </form>
+{%include 'footer.html'%}
